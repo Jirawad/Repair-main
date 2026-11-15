@@ -26,3 +26,8 @@
     transition-duration: 0.01ms !important;
   }
 }
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
